@@ -20,7 +20,7 @@ body {
 
 .titulo-navegacao {
     height: 400px;
-    background-image: url(/imagens/fundo-da-navegacao.jpg);
+    background-image: url(imagens/fundo-da-navegacao.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
