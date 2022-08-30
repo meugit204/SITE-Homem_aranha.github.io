@@ -14,7 +14,7 @@ strong {
 
 body {
 
-    font-size: 100%;
+   
     background-color: #1f040d;
 }
 
@@ -40,10 +40,10 @@ body {
 .titulo-topo h1 {
     text-align: center;
     color: #fff;
-    font-size: 75px;
+    font-size: clamp(2em, 5em, 10em);
     font-weight: bold;
     margin-bottom: 20px;
-    letter-spacing: 15px;
+    
     text-shadow: 2px 2px 5px #D61639;
 }
 
@@ -85,7 +85,7 @@ body {
 }
 
 .sobre-titulo-paragrafo h2 {
-    font-size: 40px;
+    font-size: clamp(1rem, 3rem, 5rem);
     font-weight: bold;
     color: #D61639;
     text-align: left;
@@ -95,8 +95,9 @@ body {
 .sobre-titulo-paragrafo p {
     text-align: left;
     width: 80%;
-    font-size: 15px;
+    font-size: clamp(0.5rem, 1rem, 2rem);
     padding-left: 30px;
+    
 }
 
 .container-imagem-paragrafo {
@@ -129,7 +130,7 @@ body {
 
 .cinema-pargrafo h3 {
     text-align: left;
-    font-size: 40px;
+    font-size: clamp(1rem, 3rem, 5rem);
     color: #D61639;
     padding: 20px 0px;
 }
