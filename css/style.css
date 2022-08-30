@@ -67,7 +67,7 @@ body {
 
 .navegacao a:hover {
     background-color: #D61639;
-    
+
 }
 
 .principal-sobre-imagens {
@@ -108,6 +108,7 @@ body {
     align-items: center;
     gap: 0px 30px;
 }
+
 .cinema-titulo-paragrafo-imagem {
     display: flex;
     flex-wrap: wrap;
@@ -118,20 +119,22 @@ body {
     gap: 0px 30px;
 }
 
-.cinema-pargrafo{
+.cinema-pargrafo {
     width: 50%;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
 }
-.cinema-pargrafo h3{
+
+.cinema-pargrafo h3 {
     text-align: left;
     font-size: 40px;
     color: #D61639;
     padding: 20px 0px;
 }
-.rodape-imagem-paragrafo{
+
+.rodape-imagem-paragrafo {
     display: flex;
     justify-content: center;
     width: 80%;
