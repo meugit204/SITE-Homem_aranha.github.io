@@ -8,10 +8,14 @@ a {
     text-decoration: none;
 }
 
+strong {
+    color: #D61639;
+}
+
 body {
 
     font-size: 100%;
-    background-color: #fff;
+    background-color: #1f040d;
 }
 
 .titulo-navegacao {
@@ -61,6 +65,80 @@ body {
 
 }
 
-.navegacao:hover a {
+.navegacao a:hover {
     background-color: #D61639;
+    
+}
+
+.principal-sobre-imagens {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+
+}
+
+.sobre-titulo-paragrafo {
+    margin-top: 60px;
+}
+
+.sobre-titulo-paragrafo h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #D61639;
+    text-align: left;
+    padding: 30px 30px;
+}
+
+.sobre-titulo-paragrafo p {
+    text-align: left;
+    width: 80%;
+    font-size: 15px;
+    padding-left: 30px;
+}
+
+.container-imagem-paragrafo {
+    display: flex;
+    margin-top: 200px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0px 30px;
+}
+.cinema-titulo-paragrafo-imagem {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    gap: 0px 30px;
+}
+
+.cinema-pargrafo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.cinema-pargrafo h3{
+    text-align: left;
+    font-size: 40px;
+    color: #D61639;
+    padding: 20px 0px;
+}
+.rodape-imagem-paragrafo{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    background-color: #fff;
+    margin: 0 auto;
+    border-top: 1px solid #000;
+    height: 60px;
+    align-items: center;
+    flex-wrap: wrap;
 }
